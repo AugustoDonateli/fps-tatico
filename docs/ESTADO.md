@@ -38,7 +38,9 @@ Feito na versão jogável:
 - Cansaço liga abaixo de 25 e só desliga com 40 (antes ficava ligando e desligando).
 - Testado no Studio pelo MCP: velocidades, energia, posturas, inclinar e pulo batem com o Config. 26 testes passam.
 
-Ordem: 1) movimento (feito); 2) casa em blocos e tempos de rota; 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
+- Casa da Serra etapa 1 em blocos (planta própria): 8 rotas, 3 lugares de maleta, spawns e extrações. Tempos medidos em `docs/mapa/CasaDaSerra.md`.
+
+Ordem: 1) movimento (feito); 2) casa em blocos e tempos de rota (feito, falta testar com gente); 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
 
 ## Lote do Guto (coisas que só você faz)
 - [ ] Instalar o Blender.
