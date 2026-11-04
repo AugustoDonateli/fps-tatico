@@ -19,7 +19,7 @@ local TROCA: { [string]: { Color3 | Enum.Material } } = {
 	[tostring(cinza(176))] = { rgb(238, 236, 230), Enum.Material.SmoothPlastic }, -- externa: concreto branco
 	[tostring(cinza(206))] = { rgb(232, 226, 214), Enum.Material.SmoothPlastic }, -- interna
 	[tostring(cinza(140))] = { rgb(196, 170, 134), Enum.Material.WoodPlanks }, -- pisos
-	[tostring(cinza(120))] = { rgb(98, 138, 60), Enum.Material.Grass }, -- jardim e platô
+	[tostring(cinza(120))] = { rgb(104, 130, 74), Enum.Material.Grass }, -- jardim e platô
 	[tostring(cinza(100))] = { rgb(126, 124, 118), Enum.Material.Slate }, -- penhasco
 	[tostring(cinza(90))] = { rgb(84, 84, 86), Enum.Material.Concrete }, -- túneis
 	[tostring(rgb(150, 128, 104))] = { rgb(214, 208, 196), Enum.Material.Concrete }, -- escadas e deque
@@ -79,7 +79,7 @@ local function palmeira(pai: Instance, pos: Vector3, alt: number, rng: Random)
 		Kit.viga(m, "Gomo", p, q, 0.9 - i * 0.05, 0.9 - i * 0.05, tronco)
 		p = q
 	end
-	local folha: Kit.Estilo = { Cor = rgb(74, 128, 54), Mat = Enum.Material.SmoothPlastic, Bal = "Tecido" }
+	local folha: Kit.Estilo = { Cor = rgb(86, 120, 62), Mat = Enum.Material.SmoothPlastic, Bal = "Tecido" }
 	for i = 1, 8 do
 		local ang = i * math.pi * 2 / 8 + rng:NextNumber(-0.2, 0.2)
 		local cf = CFrame.new(p) * CFrame.Angles(0, ang, 0) * CFrame.Angles(math.rad(-25 - rng:NextNumber(0, 20)), 0, 0) * CFrame.new(0, 0, -3.2)
@@ -128,7 +128,7 @@ local function detalhes(mapa: Instance)
 	local PRETO: Kit.Estilo = { Cor = rgb(30, 30, 32), Mat = Enum.Material.SmoothPlastic, Bal = "MetalFino" }
 	local MADEIRA: Kit.Estilo = { Cor = rgb(150, 100, 62), Mat = Enum.Material.WoodPlanks, Bal = "Madeira" }
 	-- grama por cima do platô da rua (o bloco vira muro de pedra)
-	Kit.caixa(f, "GramaPlato", -150, 11, -88, 48, 11.08, -14, { Cor = rgb(98, 138, 60), Mat = Enum.Material.Grass, Bal = "Pedra" }, { Sombra = false })
+	Kit.caixa(f, "GramaPlato", -150, 11, -88, 48, 11.08, -14, { Cor = rgb(104, 130, 74), Mat = Enum.Material.Grass, Bal = "Pedra" }, { Sombra = false })
 	-- moldura preta grossa da caixa de vidro da suíte e do vidro da sala
 	for _, z in { 18, 24 } do
 		Kit.caixa(f, "MolduraSuite", -8.6, 10.4, z - 0.3, 12.6, 11, z + 0.3, PRETO)
@@ -178,6 +178,37 @@ local function detalhes(mapa: Instance)
 	end
 end
 
+
+-- Penhasco em rocha de terreno nas mesmas alturas (12, 24, 34). As caixas cinza ficam invisíveis.
+local function penhasco(mapa: Instance)
+	local T = workspace.Terrain
+	T:SetMaterialColor(Enum.Material.Rock, rgb(132, 128, 120))
+	T:SetMaterialColor(Enum.Material.Grass, rgb(100, 128, 70))
+	local terr = mapa:FindFirstChild("Terreno") :: Instance
+	for _, nome in { "Penhasco1", "Penhasco2", "Penhasco3" } do
+		local p = terr:FindFirstChild(nome)
+		if p and p:IsA("BasePart") then
+			T:FillBlock(p.CFrame, p.Size, Enum.Material.Rock)
+			p.Transparency, p.CanCollide, p.CanQuery, p.CanTouch = 1, false, false, false
+		end
+	end
+	-- bordas irregulares só nas faces sul/leste e no pé, longe das rampas (z -40) e da trilha (z 12..20)
+	local rng = Random.new(5)
+	for _ = 1, 40 do
+		local x = rng:NextNumber(52, 148)
+		local topo = if x < 72 then 12 elseif x < 100 then 24 else 34
+		T:FillBall(Vector3.new(x, rng:NextNumber(0, topo - 2), rng:NextNumber(60, 80)), rng:NextNumber(5, 11), Enum.Material.Rock)
+	end
+	for _ = 1, 24 do
+		T:FillBall(Vector3.new(rng:NextNumber(46, 52), rng:NextNumber(0, 9), rng:NextNumber(26, 70)), rng:NextNumber(3, 6), Enum.Material.Rock)
+	end
+	for _, s in { { 72, 46 }, { 100, 50 }, { 72, -54 }, { 100, -54 }, { 72, 60 }, { 100, 4 } } do
+		T:FillBall(Vector3.new(s[1], (if s[1] < 100 then 12 else 24) + 2, s[2]), rng:NextNumber(5, 8), Enum.Material.Rock)
+	end
+	T:FillBlock(CFrame.new(60, 12.5, 6), Vector3.new(20, 1, 120), Enum.Material.Grass)
+	T:FillBlock(CFrame.new(86, 24.5, 6), Vector3.new(24, 1, 120), Enum.Material.Grass)
+end
+
 function Estilo.aplicar()
 	local mapa = workspace:FindFirstChild("Mapa")
 	assert(mapa, "rode Praia.construir() antes")
@@ -217,6 +248,7 @@ function Estilo.aplicar()
 		end
 	end
 	detalhes(mapa)
+	penhasco(mapa)
 	luz()
 end
 
