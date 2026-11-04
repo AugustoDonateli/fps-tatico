@@ -1,0 +1,14 @@
+# Arquivos do Studio (o lugar é montado pelo Rojo; o mapa vai em assets/mapa)
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+sourcemap.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Blender
+*.blend1
+tools/blender/saida/

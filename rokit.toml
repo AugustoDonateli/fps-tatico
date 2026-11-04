@@ -1,0 +1,6 @@
+# Versões fixas. Rode `rokit install` na pasta do projeto.
+# Se alguma versão não existir mais, troque pela mais nova da mesma série e anote no DECISOES.md.
+[tools]
+rojo = "rojo-rbx/rojo@7.7.1"
+selene = "Kampfkarren/selene@0.27.1"
+stylua = "JohnnyMorganz/StyLua@0.20.0"

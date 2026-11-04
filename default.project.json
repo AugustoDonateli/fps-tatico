@@ -1,0 +1,37 @@
+{
+  "name": "fps-tatico",
+  "globIgnorePaths": [
+    "**/.gitkeep"
+  ],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Assets": {
+        "$path": "assets/modelos"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "ServerStorage": {
+      "Dev": {
+        "$path": "src/dev"
+      },
+      "Tests": {
+        "$path": "tests"
+      }
+    }
+  }
+}
