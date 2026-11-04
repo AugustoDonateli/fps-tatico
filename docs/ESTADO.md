@@ -13,12 +13,27 @@ Feito:
 - DebugBridge (só Studio).
 - Testes: 6 arquivos de spec. Os números foram conferidos também por script Python.
 
-Falta no M0:
-- [ ] Rodar os testes no Studio pela primeira vez e corrigir o que falhar.
-- [ ] Rodar selene e StyLua no PC.
-- [ ] Montar a sala de laboratório no Studio (paredes de cada material, alvos, escada, rampa).
+- Testes rodados no Studio do Guto em 4 nov. 2026: 25 de 25 passaram.
 
-Depois do M0: provas P1 (Server Authority), P9 (ragdoll) e a cadeira da P5 (arma por código).
+Falta no M0:
+- [ ] Rodar selene e StyLua no PC.
+- [ ] Ligar o Rojo no PC (hoje o código foi colocado no Studio direto pelo MCP).
+
+## Próximo: versão jogável (decidido em 4 nov. 2026)
+Objetivo: jogar com 4 a 6 pessoas e responder: o tiro é justo? A casa é divertida de atacar e defender? O visual está no nível?
+
+Entra:
+- Casa da Serra, etapa 1 (só a casa), primeiro em blocos, depois com acabamento visual no estilo do Intruder (formas simples, cores chapadas, luz de fim de tarde). Planta própria.
+- Submetralhadora, pistola .45 e pistola 9 mm.
+- Andar, correr, agachar, deitar, inclinar, pular, energia.
+- Mira, recuo, dispersão, recarga, dano por parte do corpo, tiro atravessando parede.
+- Portas abrindo aos poucos.
+- 2 times, rodada com maleta e extração simples.
+- Morte com o corpo caindo (ragdoll simples).
+
+Fica pra depois: rádio, voz, câmera de vara, sensor, carga, lockpick, portas trancadas, fingir de morto, prender, empurrar, supressão, sangramento, equilíbrio derrubando, escopeta, fuzil, sniper, anexo, lago e passarela.
+
+Ordem: 1) movimento; 2) casa em blocos e tempos de rota; 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
 
 ## Lote do Guto (coisas que só você faz)
 - [ ] Instalar o Blender.

@@ -23,6 +23,10 @@ Registro curto. Cada linha: o que foi decidido, quando e por quê. Detalhes no P
 | Bots chamam as funções do servidor, sem remote | Teste sem precisar de 10 pessoas. |
 | Colisores separados: visual, movimento, balístico, acústico | Cada sistema mede no que importa pra ele. |
 
+## Versão jogável primeiro (4 nov. 2026)
+Antes das partes difíceis, fazer uma versão curta e jogável pra ver se o projeto se sustenta. Corte em `docs/ESTADO.md`.
+Mapa e visual: mesmo estilo do Intruder, com planta própria. Copiar mapa, modelos ou texturas do Intruder continua proibido (risco de derrubada por direito autoral).
+
 ## Esperando prova
 | Decisão | Prova |
 | --- | --- |
