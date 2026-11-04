@@ -1,6 +1,5 @@
 --!strict
--- Ponto de partida do cliente. Por enquanto só espera os remotes aparecerem.
--- Os controladores (entrada, câmera, arma, HUD) entram aqui a partir do M1.
+-- Ponto de partida do cliente.
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
@@ -8,4 +7,11 @@ local Shared = ReplicatedStorage:WaitForChild("Shared")
 local Remotes = require(Shared.Net.Remotes)
 
 Remotes.obter(ReplicatedStorage, "Atirar")
-print("[Cliente] remotes prontos")
+
+local Movimento = require(script:WaitForChild("Movimento"))
+local Hud = require(script:WaitForChild("Hud"))
+
+Movimento.iniciar()
+Hud.iniciar(Movimento)
+
+print("[Cliente] pronto")

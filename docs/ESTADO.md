@@ -33,7 +33,12 @@ Entra:
 
 Fica pra depois: rádio, voz, câmera de vara, sensor, carga, lockpick, portas trancadas, fingir de morto, prender, empurrar, supressão, sangramento, equilíbrio derrubando, escopeta, fuzil, sniper, anexo, lago e passarela.
 
-Ordem: 1) movimento; 2) casa em blocos e tempos de rota; 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
+Feito na versão jogável:
+- Movimento (cliente, modelo clássico): andar 9, correr 16, devagar, agachar (C), deitar (Z), levantar com espaço, inclinar (Q/E, 1,5 stud e 15°), pulo de 2,5 studs que gasta energia, primeira pessoa travada, barra de energia.
+- Cansaço liga abaixo de 25 e só desliga com 40 (antes ficava ligando e desligando).
+- Testado no Studio pelo MCP: velocidades, energia, posturas, inclinar e pulo batem com o Config. 26 testes passam.
+
+Ordem: 1) movimento (feito); 2) casa em blocos e tempos de rota; 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
 
 ## Lote do Guto (coisas que só você faz)
 - [ ] Instalar o Blender.

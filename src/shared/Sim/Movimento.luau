@@ -25,6 +25,7 @@ export type Estado = {
 	Maleta: boolean?,
 	PernaFerida: boolean?,
 	Energia: number?, -- pra saber se está cansado
+	Cansado: boolean?, -- se vier, manda mais que a Energia (ver atualizarCansado)
 }
 
 local Mov = {}
@@ -33,9 +34,21 @@ function Mov.cansado(energia: number): boolean
 	return energia < Vitais.Energia.LimiarCansado
 end
 
+-- Cansado liga abaixo de 25 e só desliga com 40.
+function Mov.atualizarCansado(cansadoAntes: boolean, energia: number): boolean
+	local en = Vitais.Energia
+	if cansadoAntes then
+		return energia < en.VoltaACorrer
+	end
+	return energia < en.LimiarCansado
+end
+
 function Mov.podeCorrer(e: Estado): boolean
 	if e.Maleta or e.PernaFerida or e.Mirando then
 		return false
+	end
+	if e.Cansado ~= nil then
+		return not e.Cansado
 	end
 	if e.Energia ~= nil and Mov.cansado(e.Energia) then
 		return false

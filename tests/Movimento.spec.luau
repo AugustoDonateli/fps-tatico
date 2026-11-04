@@ -20,6 +20,15 @@ return {
 		t.igual(Mov.velocidade({ Modo = "Correr", Maleta = true }), 9 * 0.85, "maleta")
 		t.igual(Mov.velocidade({ Modo = "Correr", Energia = 20 }), 9, "cansado")
 		t.igual(Mov.velocidade({ Modo = "Correr", PernaFerida = true }), 9 * 0.7, "perna")
+		t.igual(Mov.velocidade({ Modo = "Correr", Cansado = true, Energia = 90 }), 9, "Cansado manda mais")
+	end,
+
+	["cansaço sem liga e desliga"] = function(t, Shared)
+		local Mov = require(Shared.Sim.Movimento)
+		t.falso(Mov.atualizarCansado(false, 30), "30 descansado")
+		t.verdade(Mov.atualizarCansado(false, 24), "abaixo de 25 cansa")
+		t.verdade(Mov.atualizarCansado(true, 30), "cansado com 30 continua")
+		t.falso(Mov.atualizarCansado(true, 40), "volta com 40")
 	end,
 
 	["energia"] = function(t, Shared)

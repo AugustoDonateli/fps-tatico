@@ -18,6 +18,7 @@ Vitais.Energia = {
 	RecuperaAgachado = 6,
 	RecuperaDeitadoParado = 4,
 	LimiarCansado = 25, -- abaixo: respiração alta, balanço 2×, não corre
+	VoltaACorrer = 40, -- depois de cansar, só corre de novo com 40 (evita liga e desliga)
 	BalancoArmaCansado = 2,
 	SupressaoPorBala = 5, -- cada bala que passa perto tira energia
 }
