@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="910" viewBox="0 0 900 910" font-family="Arial, sans-serif">
+<rect width="900" height="910" fill="#f4f1ea"/>
+<rect x="0" y="0" width="900" height="690" fill="#cfe0b8" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="0" y="0" width="900" height="66" fill="#8a8a8a" stroke="none" stroke-width="1" opacity="1"/>
+<text x="450" y="39" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">ESTRADA (nível +11)</text>
+<polygon points="0,450 900,450 900,690 0,690" fill="#e9d9a8" stroke="none" opacity="1"/>
+<polygon points="0,546 900,546 900,690 0,690" fill="#7fb2c9" stroke="none" opacity="1"/>
+<text x="90" y="630" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">MAR</text>
+<text x="90" y="495" font-size="11" fill="#6b5a2a" text-anchor="middle" font-weight="bold">PRAIA (nível 0)</text>
+<polygon points="594,150 900,90 900,546 660,546 618,420 588,300" fill="#a9a49a" stroke="#7a756c" opacity="1"/>
+<text x="765" y="270" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">PENHASCO</text>
+<text x="765" y="306" font-size="10" fill="#fff" text-anchor="middle">(sobe até +34)</text>
+<line x1="0" y1="288" x2="588" y2="288" stroke="#6b6b6b" stroke-width="4"/>
+<text x="120" y="279" font-size="9" fill="#444" text-anchor="start">muro de arrimo: acima +11, abaixo 0</text>
+<rect x="390" y="300" width="120" height="84" fill="#ffffff" stroke="#333" stroke-width="2" opacity="1"/>
+<text x="450" y="336" font-size="11" fill="#222" text-anchor="middle" font-weight="bold">A  SALA / ÁTRIO</text>
+<text x="450" y="369" font-size="9" fill="#222" text-anchor="middle">2 andares</text>
+<rect x="318" y="312" width="72" height="60" fill="#ececec" stroke="#333" stroke-width="2" opacity="1"/>
+<text x="354" y="336" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">W  COZINHA</text>
+<text x="354" y="360" font-size="9" fill="#222" text-anchor="middle">lavanderia</text>
+<text x="354" y="327" font-size="8" fill="#666" text-anchor="middle"></text>
+<rect x="510" y="300" width="24" height="36" fill="#b98a5e" stroke="#333" stroke-width="2" opacity="1"/>
+<text x="522" y="321" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">B</text>
+<text x="522" y="345" font-size="8" fill="#fff" text-anchor="middle">núcleo</text>
+<rect x="510" y="228" width="78" height="72" fill="#dcdcdc" stroke="#333" stroke-width="2" opacity="1"/>
+<text x="549" y="258" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">D  GARAGEM</text>
+<text x="549" y="282" font-size="8" fill="#222" text-anchor="middle">nível da rua +11</text>
+<rect x="426" y="384" width="60" height="18" fill="#3b4a55" stroke="#111" stroke-width="2" opacity="0.85"/>
+<text x="456" y="397.5" font-size="8" fill="#fff" text-anchor="middle">C caixa de vidro (andar de cima)</text>
+<rect x="378" y="384" width="132" height="66" fill="#d9cdb5" stroke="#333" stroke-width="1" opacity="1"/>
+<text x="444" y="444" font-size="9" fill="#5a4a2a" text-anchor="middle" font-weight="bold">terraço</text>
+<rect x="408" y="402" width="84" height="24" fill="#6fb3d6" stroke="#2b6c8f" stroke-width="1.5" opacity="1"/>
+<text x="450" y="420" font-size="9" fill="#fff" text-anchor="middle">piscina</text>
+<rect x="378" y="426" width="30" height="24" fill="#b98a5e" stroke="#5a3e22" stroke-width="1" opacity="1"/>
+<text x="393" y="441" font-size="8" fill="#fff" text-anchor="middle">deque</text>
+<rect x="420" y="228" width="60" height="60" fill="#c7b9a0" stroke="#333" stroke-width="1" opacity="1"/>
+<text x="450" y="258" font-size="9" fill="#222" text-anchor="middle" font-weight="bold">ENTRADA / pátio</text>
+<text x="450" y="279" font-size="8" fill="#222" text-anchor="middle">(nível +11)</text>
+<rect x="234" y="486" width="36" height="156" fill="#a57b52" stroke="#5a3e22" stroke-width="1" opacity="1"/>
+<text x="252" y="570" font-size="9" fill="#fff" text-anchor="middle">píer</text>
+<rect x="174" y="468" width="54" height="42" fill="#e6e0d4" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="201" y="492" font-size="9" fill="#222" text-anchor="middle" font-weight="bold">barco</text>
+<circle cx="726" cy="384" r="7" fill="#333"/>
+<text x="726" y="360" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">torre +34</text>
+<line x1="726" y1="384" x2="450" y2="342" stroke="#111" stroke-width="2" stroke-dasharray="6,4"/>
+<rect x="390" y="312" width="102" height="126" fill="none" stroke="#7a2b2b" stroke-width="1.5" opacity="1" stroke-dasharray="5,4"/>
+<text x="441" y="453" font-size="8" fill="#7a2b2b" text-anchor="middle">porão −11</text>
+<polyline points="474,438 540,486 582,528" fill="none" stroke="#7a2b2b" stroke-width="3" stroke-dasharray="3,3"/>
+<circle cx="90" cy="36" r="6" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="90" y="25.5" font-size="9" fill="#c0392b" text-anchor="middle" font-weight="bold">Intrusos (estrada)</text>
+<circle cx="60" cy="510" r="6" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="60" y="499.5" font-size="9" fill="#c0392b" text-anchor="middle" font-weight="bold">Intrusos (praia)</text>
+<circle cx="450" cy="324" r="6" fill="#2c6fb7" stroke="#fff" stroke-width="1.5"/>
+<text x="450" y="313.5" font-size="9" fill="#2c6fb7" text-anchor="middle" font-weight="bold">Guardas</text>
+<circle cx="252" cy="636" r="6" fill="#1e8449" stroke="#fff" stroke-width="1.5"/>
+<text x="252" y="625.5" font-size="9" fill="#1e8449" text-anchor="middle" font-weight="bold">Extração: barco</text>
+<circle cx="840" cy="36" r="6" fill="#1e8449" stroke="#fff" stroke-width="1.5"/>
+<text x="840" y="25.5" font-size="9" fill="#1e8449" text-anchor="middle" font-weight="bold">Extração: estrada</text>
+<rect x="476" y="308" width="8" height="8" fill="#f1c40f" stroke="#333"/>
+
+<rect x="422" y="320" width="8" height="8" fill="#f1c40f" stroke="#333"/>
+
+<rect x="554" y="242" width="8" height="8" fill="#f1c40f" stroke="#333"/>
+
+<circle cx="726" cy="384" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="726" y="388" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="450" cy="288" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="450" y="292" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="549" cy="228" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="549" y="232" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="582" cy="528" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="582" y="532" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="318" cy="354" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="318" y="358" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="384" cy="450" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="384" y="454" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">6</text>
+<circle cx="534" cy="318" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="534" y="322" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">7</text>
+<circle cx="606" cy="414" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="606" y="418" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">8</text>
+<circle cx="444" cy="384" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="444" y="388" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">9</text>
+<circle cx="318" cy="330" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+<text x="318" y="334" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">10</text>
+<text x="870" y="105" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">N ↑</text>
+<line x1="30" y1="420" x2="180" y2="420" stroke="#333" stroke-width="3"/>
+<text x="105" y="411" font-size="9" fill="#222" text-anchor="middle">50 studs (14 m)</text>
+<text x="12" y="704" font-size="13" font-weight="bold" fill="#222">Rotas de entrada (proposta — planta própria, escala 3 px = 1 stud)</text>
+
+
+
+
+
+
+
+
+
+
+<text x="12" y="720" font-size="11" fill="#222">1  Tirolesa: torre no penhasco até o terraço do telhado (rápida, exposta, cabo faz barulho)</text><text x="12" y="736" font-size="11" fill="#222">2  Porta da frente no nível da rua, trancada (lockpick com clique; escopeta abre madeira)</text><text x="12" y="752" font-size="11" fill="#222">3  Garagem: portão basculante (barulho alto), porta lateral trancada, portão emperrado (passa deitado)</text><text x="12" y="768" font-size="11" fill="#222">4  Tubulação de drenagem na praia, rastejando até a casa de máquinas no porão</text><text x="12" y="784" font-size="11" fill="#222">5  Duto da casa de máquinas até o forro da lavanderia</text><text x="12" y="800" font-size="11" fill="#222">6  Vão embaixo do deque da piscina até o alçapão da despensa</text><text x="12" y="816" font-size="11" fill="#222">7  Escada de marinheiro escondida no núcleo B (lado do penhasco) até o telhado; claraboia quebra (barulho)</text><text x="12" y="832" font-size="11" fill="#222">8  Trilha estreita no penhasco até a varanda de baixo</text><text x="12" y="848" font-size="11" fill="#222">9  Pelo mar: nadar até o píer e entrar pela porta de vidro da sala</text><text x="12" y="864" font-size="11" fill="#222">10 Janela basculante do banheiro (só agachado, silenciosa)</text><text x="12" y="880" font-size="11" fill="#222">Quadrados amarelos = maletas: escritório (andar de cima), adega (porão −11), garagem (nível da rua)</text><text x="12" y="896" font-size="11" fill="#222">Linha tracejada vermelha = porão e tubulação de drenagem. Linha preta tracejada = cabo da tirolesa</text></svg>
