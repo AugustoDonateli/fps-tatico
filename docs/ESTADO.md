@@ -19,31 +19,21 @@ Falta no M0:
 - [ ] Rodar selene e StyLua no PC.
 - [ ] Ligar o Rojo no PC (hoje o código foi colocado no Studio direto pelo MCP).
 
-## Próximo: versão jogável (decidido em 4 nov. 2026)
-Objetivo: jogar com 4 a 6 pessoas e responder: o tiro é justo? A casa é divertida de atacar e defender? O visual está no nível?
+## Voltando ao plano (4 nov. 2026)
+O desvio da "versão jogável" serviu de teste: o movimento entra no M1 e o mapa com acabamento fica guardado como base da A4/A5 (código em `src/dev/Mapa`). O mapa cinza do M2 vai ser montado com o mesmo kit, sem os móveis.
 
-Entra:
-- Casa da Serra, etapa 1 (só a casa), primeiro em blocos, depois com acabamento visual no estilo do Intruder (formas simples, cores chapadas, luz de fim de tarde). Planta própria.
-- Submetralhadora, pistola .45 e pistola 9 mm.
-- Andar, correr, agachar, deitar, inclinar, pular, energia.
-- Mira, recuo, dispersão, recarga, dano por parte do corpo, tiro atravessando parede.
-- Portas abrindo aos poucos.
-- 2 times, rodada com maleta e extração simples.
-- Morte com o corpo caindo (ragdoll simples).
+### O que falta pra fechar o M0
+- [ ] Rojo rodando no PC do Guto (resolve também o bloqueio do MCP pra criar scripts no lugar).
+- [ ] EntradaController base (teclas do Config viram ações).
+- [ ] Estande de teste e sala de laboratório (cinza): porta 3,2 × 7,5, janela, duto, escada, painel com uma parede de cada material, 2 posições de tiro, corredor em L, boneco de escala 6,3.
+- [ ] DebugBridge lendo o estado do jogo em Play pelo execute_luau.
+- [ ] Prova P1 (Server Authority, lugar à parte, 150 ms simulados, depois 2 contas publicadas).
+- [ ] Prova P9 (ragdoll do Nevermore contra constraints próprias).
+- [ ] Cadeira da prova P5 (Blender sem janela, escala certa na 1ª tentativa).
+- [ ] 1 hora de estudo dos templates oficiais FPS System e Laser Tag.
+- [ ] Tag marco-0 no GitHub.
 
-Fica pra depois: rádio, voz, câmera de vara, sensor, carga, lockpick, portas trancadas, fingir de morto, prender, empurrar, supressão, sangramento, equilíbrio derrubando, escopeta, fuzil, sniper, anexo, lago e passarela.
-
-Feito na versão jogável:
-- Movimento (cliente, modelo clássico): andar 9, correr 16, devagar, agachar (C), deitar (Z), levantar com espaço, inclinar (Q/E, 1,5 stud e 15°), pulo de 2,5 studs que gasta energia, primeira pessoa travada, barra de energia.
-- Cansaço liga abaixo de 25 e só desliga com 40 (antes ficava ligando e desligando).
-- Testado no Studio pelo MCP: velocidades, energia, posturas, inclinar e pulo batem com o Config. 26 testes passam.
-
-- Casa da Serra etapa 1 em blocos (planta própria): 8 rotas, 3 lugares de maleta, spawns e extrações. Tempos medidos em `docs/mapa/CasaDaSerra.md`.
-
-- Mapa refeito do zero com acabamento (4 nov. 2026): kit modular, átrio no nível da A4, 12 cômodos mobiliados, exterior com serra, mata, jardim e deque. Ver `docs/mapa/CasaDaSerra.md`.
-- Observação: no Studio atual o MCP não pode criar scripts no lugar (erro de Capabilities). O mapa foi montado rodando o código direto; o código fica no GitHub.
-
-Ordem: 1) movimento (feito); 2) casa em blocos e tempos de rota (feito, falta testar com gente); 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
+Depois: M1 Corpo (arquitetura da P1, 8 posturas, energia, equilíbrio, beirada, ragdoll, fingir, escada, trepadeira, nado, painel de medidores).
 
 ## Lote do Guto (coisas que só você faz)
 - [ ] Instalar o Blender.
