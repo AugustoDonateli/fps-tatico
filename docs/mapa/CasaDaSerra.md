@@ -1,6 +1,14 @@
-# Casa da Serra — etapa 1 (blocos)
+# Casa da Serra — etapa 1
 
-Planta própria. Código: `src/dev/Mapa/CasaDaSerra.luau` (monta tudo em `workspace.Mapa`).
+Planta própria. Código em `src/dev/Mapa/`:
+- `Kit.luau` — kit modular: estilos (cor, material, material balístico), paredes com batente, caixilho e rodapé, lajes, forro rebaixado com spots, escada vazada, guarda-corpo de vidro.
+- `Moveis.luau` — móveis e objetos retos por código.
+- `Casa.luau` — estrutura, acabamento, móveis e luz de cada cômodo.
+- `Ambiente.luau` — luz de fim de tarde, terreno com serra, mata low poly, jardim, deque, muro, estrada, marcadores.
+- `CasaDaSerra.luau` — monta tudo em `workspace.Mapa`.
+
+Acabamento feito em 4 nov. 2026 seguindo as 4 camadas da pesquisa (estrutura, acabamento, móveis, vida) e a A4 do plano (átrio com escada vazada, claraboia com vigas, forro com spots, canteiro interno).
+Mudança de planta: a escada do porão foi pra x 28..34 (antes ficava na frente da saída do duto).
 
 ## Planta
 - Casa de 90 × 60 studs: térreo (piso y 0), 1º andar (piso y 11), porão (piso y -11).
@@ -30,6 +38,11 @@ Escritório (1º andar), adega (porão), garagem.
 | Escritório → extração norte (com maleta) | 149 | 19,5 s | 20–30 s, no limite |
 | Garagem → extração leste (com maleta) | 178 | 23,3 s | ✔ |
 | Adega → extração norte (com maleta) | 196 | 25,6 s | ✔ |
+
+## Pendências de arte (A5)
+- Quartos ainda com poucos objetos (camada 4: livros, roupas, objetos pequenos).
+- Quadros, pôsteres e placas são abstratos por código; as imagens de verdade vêm do Guto (ChatGPT), pelo plano.
+- Props curvos (poltronas, plantas, eletrodomésticos) vão por Meshy ou pacote, pelo plano.
 
 ## Pendências
 - Spawn oeste está ~1,5 s perto demais. Ajustar depois do primeiro teste com gente.

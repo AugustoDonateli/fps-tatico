@@ -40,6 +40,9 @@ Feito na versão jogável:
 
 - Casa da Serra etapa 1 em blocos (planta própria): 8 rotas, 3 lugares de maleta, spawns e extrações. Tempos medidos em `docs/mapa/CasaDaSerra.md`.
 
+- Mapa refeito do zero com acabamento (4 nov. 2026): kit modular, átrio no nível da A4, 12 cômodos mobiliados, exterior com serra, mata, jardim e deque. Ver `docs/mapa/CasaDaSerra.md`.
+- Observação: no Studio atual o MCP não pode criar scripts no lugar (erro de Capabilities). O mapa foi montado rodando o código direto; o código fica no GitHub.
+
 Ordem: 1) movimento (feito); 2) casa em blocos e tempos de rota (feito, falta testar com gente); 3) arma e tiro; 4) portas; 5) rodada e maleta; 6) acabamento visual; 7) teste com gente.
 
 ## Lote do Guto (coisas que só você faz)
