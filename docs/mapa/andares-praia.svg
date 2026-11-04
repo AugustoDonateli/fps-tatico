@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1586" height="695" font-family="Arial, sans-serif">
+<rect width="1586" height="695" fill="#f4f1ea"/>
+<rect x="30.0" y="40" width="488.8" height="395.2" fill="#e7ecdf" stroke="#999"/>
+<text x="274.4" y="28" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">PORÃO (−11)</text>
+<rect x="165.2" y="196.0" width="124.8" height="124.8" fill="#d8cfc4" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="227.6" y="248.0" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">ADEGA DOS</text>
+<text x="227.6" y="274.0" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">SERVIDORES</text>
+<rect x="222.6" y="289.8" width="10" height="10" fill="#f1c40f" stroke="#333"/>
+<rect x="290.0" y="196.0" width="83.2" height="124.8" fill="#d0d0d0" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="331.6" y="258.4" font-size="9" fill="#222" text-anchor="middle">depósito</text>
+<rect x="196.4" y="341.6" width="145.6" height="72.8" fill="#c7d3dc" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="269.2" y="372.8" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">CASA DE</text>
+<text x="269.2" y="398.8" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">MÁQUINAS</text>
+<rect x="248.4" y="320.8" width="41.6" height="20.8" fill="#bbb" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="269.2" y="336.4" font-size="8" fill="#222" text-anchor="middle"></text>
+<rect x="373.2" y="175.2" width="41.6" height="62.4" fill="#b98a5e" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="394.0" y="211.6" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">B</text>
+<text x="394.0" y="232.4" font-size="7" fill="#fff" text-anchor="middle">escada</text>
+<polyline points="342.0,393.6 477.2,424.8" stroke="#7a2b2b" stroke-width="4" stroke-dasharray="4,3" fill="none"/>
+<circle cx="456.4" cy="414.4" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="456.4" y="418.4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<text x="425.2" y="435.2" font-size="8" fill="#7a2b2b" text-anchor="middle">tubo até a praia</text>
+<polyline points="196.4,372.8 71.6,372.8 71.6,289.6" stroke="#555" stroke-width="3" stroke-dasharray="2,2" fill="none"/>
+<circle cx="71.6" cy="331.2" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="71.6" y="335.2" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<text x="92.4" y="393.6" font-size="8" fill="#555" text-anchor="middle">duto sobe pro forro da lavanderia</text>
+<rect x="286.0" y="264.8" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="265.2" y="316.8" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="369.2" y="202.4" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<circle cx="362.8" cy="300.0" r="6" fill="#16a085" stroke="#fff" stroke-width="1.5"/>
+<text x="362.8" y="284.4" font-size="7" fill="#16a085" text-anchor="middle">atrás das caixas</text>
+<rect x="548.8" y="40" width="488.8" height="395.2" fill="#e7ecdf" stroke="#999"/>
+<text x="793.1999999999999" y="28" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">TÉRREO (0) — praia e piscina</text>
+<rect x="559.2" y="196.0" width="93.6" height="62.4" fill="#eee" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="606.0" y="227.2" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">COZINHA</text>
+<rect x="652.8" y="196.0" width="31.2" height="104.0" fill="#e3dccd" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="668.4" y="248.0" font-size="7" fill="#222" text-anchor="middle" font-weight="bold">DESPENSA</text>
+<text x="668.4" y="274.0" font-size="7" fill="#8e44ad" text-anchor="middle">alçapão</text>
+<rect x="559.2" y="258.4" width="41.6" height="41.6" fill="#e8f0f2" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="580.0" y="284.4" font-size="8" fill="#222" text-anchor="middle" font-weight="bold">BANHO</text>
+<rect x="600.8" y="258.4" width="52.0" height="41.6" fill="#e8f0f2" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="626.8" y="284.4" font-size="8" fill="#222" text-anchor="middle" font-weight="bold">LAVAND.</text>
+<rect x="684.0" y="175.2" width="208.0" height="145.6" fill="#fff" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="788.0" y="206.4" font-size="11" fill="#222" text-anchor="middle" font-weight="bold">SALA / ÁTRIO</text>
+<text x="788.0" y="232.4" font-size="8" fill="#222" text-anchor="middle">pé-direito duplo</text>
+<rect x="725.6" y="237.6" width="93.6" height="62.4" fill="none" stroke="#999" stroke-width="1" opacity="1" stroke-dasharray="4,3"/>
+<text x="772.4" y="274.0" font-size="8" fill="#888" text-anchor="middle">vão até o teto</text>
+<rect x="684.0" y="175.2" width="72.8" height="20.8" fill="#b98a5e" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="720.4" y="188.7" font-size="7" fill="#fff" text-anchor="middle">escada →</text>
+<rect x="892.0" y="175.2" width="41.6" height="62.4" fill="#b98a5e" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="912.8" y="211.6" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">B</text>
+<rect x="892.0" y="237.6" width="62.4" height="83.2" fill="#d9cdb5" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="923.2" y="279.2" font-size="8" fill="#222" text-anchor="middle" font-weight="bold">VARANDA</text>
+<text x="923.2" y="300.0" font-size="7" fill="#222" text-anchor="middle">de baixo</text>
+<rect x="663.2" y="320.8" width="228.8" height="114.4" fill="#d9cdb5" stroke="#333" stroke-width="1" opacity="1"/>
+<rect x="715.2" y="352.0" width="145.6" height="41.6" fill="#6fb3d6" stroke="#2b6c8f" stroke-width="1.5" opacity="1"/>
+<text x="788.0" y="378.0" font-size="8" fill="#fff" text-anchor="middle">piscina</text>
+<rect x="663.2" y="393.6" width="52.0" height="41.6" fill="#b98a5e" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="689.2" y="419.6" font-size="7" fill="#fff" text-anchor="middle">deque</text>
+<line x1="206.8" y1="320.8" x2="331.6" y2="320.8" stroke="#2b6c8f" stroke-width="4"/>
+<circle cx="788.0" cy="336.4" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="788.0" y="340.4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">9</text>
+<text x="788.0" y="310.4" font-size="7" fill="#2b6c8f" text-anchor="middle">vidro de correr</text>
+<circle cx="548.8" cy="279.2" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="548.8" y="283.2" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">10</text>
+<text x="574.8" y="315.6" font-size="7" fill="#8e44ad" text-anchor="middle">basculante</text>
+<circle cx="689.2" cy="445.6" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="689.2" y="449.6" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">6</text>
+<circle cx="964.8" cy="279.2" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="964.8" y="283.2" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">8</text>
+<circle cx="559.2" cy="216.8" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="559.2" y="220.8" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold"></text>
+<rect x="648.8" y="223.2" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="648.8" y="275.2" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="596.8" y="275.2" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="680.0" y="244.0" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="888.0" y="202.4" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="888.0" y="275.2" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<circle cx="668.4" cy="211.6" r="6" fill="#16a085" stroke="#fff" stroke-width="1.5"/>
+<text x="668.4" y="222.0" font-size="6" fill="#222" text-anchor="middle"></text>
+<circle cx="704.8" cy="183.0" r="6" fill="#16a085" stroke="#fff" stroke-width="1.5"/>
+<text x="606.0" y="185.6" font-size="7" fill="#555" text-anchor="middle">↑ muro de arrimo (rua +11)</text>
+<rect x="1067.6" y="40" width="488.8" height="395.2" fill="#e7ecdf" stroke="#999"/>
+<text x="1312.0" y="28" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">ANDAR DE CIMA (+11) — rua e garagem</text>
+<rect x="1254.8" y="50.4" width="104.0" height="104.0" fill="#c7b9a0" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1306.8" y="102.4" font-size="9" fill="#222" text-anchor="middle" font-weight="bold">PÁTIO DE ENTRADA</text>
+<text x="1306.8" y="128.4" font-size="7" fill="#222" text-anchor="middle">nível da rua</text>
+<rect x="1410.8" y="50.4" width="135.2" height="124.8" fill="#dcdcdc" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1478.4" y="102.4" font-size="10" fill="#222" text-anchor="middle" font-weight="bold">GARAGEM</text>
+<rect x="1509.8" y="76.6" width="10" height="10" fill="#f1c40f" stroke="#333"/>
+<circle cx="1478.4" cy="40.0" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="1478.4" y="44.0" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="1546.0" cy="123.2" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="1546.0" y="127.2" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold"></text>
+<text x="1530.4" y="154.4" font-size="7" fill="#c0392b" text-anchor="middle">porta lateral trancada</text>
+<rect x="1254.8" y="154.4" width="104.0" height="20.8" fill="#eee" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1306.8" y="168.4" font-size="8" fill="#222" text-anchor="middle" font-weight="bold">HALL</text>
+<circle cx="1306.8" cy="154.4" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="1306.8" y="158.4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<rect x="1358.8" y="154.4" width="52.0" height="20.8" fill="#eee" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1384.8" y="168.4" font-size="7" fill="#222" text-anchor="middle">corredor</text>
+<rect x="1202.8" y="175.2" width="72.8" height="62.4" fill="#f0e6e6" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1239.2" y="206.4" font-size="9" fill="#222" text-anchor="middle" font-weight="bold">QUARTO 1</text>
+<rect x="1338.0" y="175.2" width="72.8" height="62.4" fill="#fff3d6" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1374.4" y="206.4" font-size="8" fill="#222" text-anchor="middle" font-weight="bold">ESCRITÓRIO</text>
+<rect x="1385.0" y="217.0" width="10" height="10" fill="#f1c40f" stroke="#333"/>
+<rect x="1275.6" y="175.2" width="62.4" height="62.4" fill="#f7f7f7" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1306.8" y="206.4" font-size="8" fill="#222" text-anchor="middle">galeria</text>
+<rect x="1244.4" y="237.6" width="93.6" height="62.4" fill="none" stroke="#999" stroke-width="1" opacity="1" stroke-dasharray="4,3"/>
+<text x="1291.2" y="274.0" font-size="8" fill="#888" text-anchor="middle">vão (átrio)</text>
+<rect x="1202.8" y="237.6" width="41.6" height="83.2" fill="#f7f7f7" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1223.6" y="279.2" font-size="7" fill="#222" text-anchor="middle">galeria</text>
+<rect x="1338.0" y="237.6" width="72.8" height="62.4" fill="#f0e6e6" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1374.4" y="268.8" font-size="8" fill="#222" text-anchor="middle" font-weight="bold">QUARTO 2</text>
+<rect x="1244.4" y="300.0" width="93.6" height="20.8" fill="#f7f7f7" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1291.2" y="314.6" font-size="7" fill="#222" text-anchor="middle">galeria</text>
+<rect x="1265.2" y="320.8" width="104.0" height="31.2" fill="#3b4a55" stroke="#111" stroke-width="2" opacity="1"/>
+<text x="1317.2" y="340.6" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">SUÍTE (caixa de vidro)</text>
+<rect x="1078.0" y="196.0" width="124.8" height="104.0" fill="#d9cdb5" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1140.4" y="248.0" font-size="9" fill="#222" text-anchor="middle" font-weight="bold">TERRAÇO</text>
+<text x="1140.4" y="274.0" font-size="7" fill="#222" text-anchor="middle">(teto da cozinha)</text>
+<rect x="1410.8" y="175.2" width="41.6" height="62.4" fill="#b98a5e" stroke="#333" stroke-width="1.5" opacity="1"/>
+<text x="1431.6" y="211.6" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">B</text>
+<circle cx="1457.6" cy="196.0" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="1457.6" y="200.0" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">7</text>
+<text x="1494.0" y="216.8" font-size="7" fill="#8e44ad" text-anchor="middle">marinheiro → telhado</text>
+<circle cx="1306.8" cy="258.4" r="0"/>
+<circle cx="1296.4" cy="258.4" r="9" fill="#8e44ad" stroke="#fff" stroke-width="2"/><text x="1296.4" y="262.4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="1296.4" y="227.2" font-size="7" fill="#8e44ad" text-anchor="middle">tirolesa chega no telhado (+22)</text>
+<rect x="1302.8" y="150.4" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1271.6" y="192.0" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1334.0" y="192.0" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1334.0" y="264.8" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1313.2" y="316.8" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1406.8" y="202.4" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1354.8" y="160.8" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<rect x="1198.8" y="244.0" width="8" height="8" fill="#c0392b" stroke="#fff"/>
+<circle cx="1358.8" cy="341.6" r="6" fill="#16a085" stroke="#fff" stroke-width="1.5"/>
+<text x="1358.8" y="362.4" font-size="7" fill="#16a085" text-anchor="middle">closet</text>
+<circle cx="1223.6" cy="185.6" r="6" fill="#16a085" stroke="#fff" stroke-width="1.5"/>
+<text x="1223.6" y="164.8" font-size="7" fill="#222" text-anchor="middle"></text>
+<rect x="30" y="455.2" width="12" height="12" fill="#8e44ad"/><text x="50" y="465.2" font-size="12" fill="#222">Rotas (números da planta do terreno). Sem número = rota secundária</text>
+<rect x="30" y="477.2" width="12" height="12" fill="#c0392b"/><text x="50" y="487.2" font-size="12" fill="#222">Portas (vermelho). Trancáveis: frente, lateral da garagem, escritório, adega</text>
+<rect x="30" y="499.2" width="12" height="12" fill="#f1c40f"/><text x="50" y="509.2" font-size="12" fill="#222">Maletas: escritório (+11), adega (−11), garagem (+11)</text>
+<rect x="30" y="521.2" width="12" height="12" fill="#16a085"/><text x="50" y="531.2" font-size="12" fill="#222">Esconderijos: atrás das caixas, embaixo da escada, despensa, closet da suíte, armário do quarto 1</text>
+<rect x="30" y="543.2" width="12" height="12" fill="#b98a5e"/><text x="50" y="553.2" font-size="12" fill="#222">Núcleo B: escada interna do porão ao telhado + escada de marinheiro por fora (lado do penhasco)</text>
+<text x="30" y="583.2" font-size="12" fill="#222">Telhado (+22): terraço com claraboia sobre o átrio (vidro quebra com barulho), chegada da tirolesa, saída do núcleo B. Planta própria; volumes inspirados no estilo moderno de praia.</text>
+</svg>
